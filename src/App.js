@@ -8,7 +8,7 @@ import Instagram from "./instagram.png"
 import "./App.css"
 
 const App = () => {
-  let iconSize = 90
+  let iconSize = 80
 
   const onFacebookClick = () => {
     let a = document.getElementById("anchor")
