@@ -137,5 +137,18 @@ p {
   .socials {
     width: 100%;
   }
+
+  .wrapper {
+    padding: 0 25px;
+  }
+
+  .socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .social:nth-child(5) {
+    grid-column: 1 / 3;
+  }
 }
 
