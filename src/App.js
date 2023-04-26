@@ -1,4 +1,4 @@
-import Social from "./social.png"
+import Social from "./social.jpg"
 import Facebook from "./facebook.png"
 import Snapchat from "./snapchat.png"
 import Tiktok from "./tiktok.png"
