@@ -54,19 +54,19 @@ const App = () => {
         <h3>Follow our socials!</h3>
         <img width={130} style={{ marginTop: "20px" }} src={Social} />
         <div className="socials">
-          <div onClick={() => onFacebookClick()} className="social">
+          <div onClick={onFacebookClick} className="social">
             <img width={iconSize} style={{ zIndex: "200" }} src={Facebook} />
           </div>
-          <div onClick={() => onSnapchatClick()} className="social">
+          <div onClick={onSnapchatClick} className="social">
             <img width={iconSize} style={{ zIndex: "200" }} src={Snapchat} />
           </div>
-          <div onClick={() => onInstagramClick()} className="social">
+          <div onClick={onInstagramClick} className="social">
             <img width={iconSize} style={{ zIndex: "200" }} src={Instagram} />
           </div>
-          <div onClick={() => onTiktokClick()} className="social">
+          <div onClick={onTiktokClick} className="social">
             <img width={iconSize} style={{ zIndex: "200" }} src={Tiktok} />
           </div>
-          <div onClick={() => onWhatsappClick()} className="social">
+          <div onClick={onWhatsappClick} className="social">
             <img width={iconSize} style={{ zIndex: "200" }} src={Whatsapp} />
           </div>
         </div>
